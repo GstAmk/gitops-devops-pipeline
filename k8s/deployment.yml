@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: kraazito/gitops-devops-pipeline:main
+        image: docker.io/kraazito/gitops-devops-pipeline:94673c1
         ports:
         - containerPort: 5000
         resources:
