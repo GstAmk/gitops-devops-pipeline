@@ -3,12 +3,6 @@ name: Docker build and push images to docker hub
 # Trigger qui déclenchent l'action
 on:
   push:
-    branches: [ "main" ]
-    paths:
-      - 'k8s/**'
-      - 'app/**'
-  pull_request:
-    branches: [ "main" ]
 
 # Variable d'environnement
 env:
